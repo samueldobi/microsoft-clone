@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400&display=swap');
+body{
+    font-family: 'Noto Sans', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+ul{
+    list-style-type: none;
+}
+
+/* Navbar Styling*/
+.navbar a {
+    font-size: 0.8rem;
+    font-weight: 900;
+}
+
+.navbar-collapse *{
+    padding: 5px;
+}
+/* Navbar Styling*/
+
+.hero{
+    padding: 2px;
+}
+/* .carousel-control-prev ,.carousel-control-next{
+} */
+.btn-first{
+    background-color:#0067b8 ;
+    border: none;
+}
+.reduce-text{
+    font-size: 0.9rem;
+}
+.footer{
+    background:#f2f2f2;
+}
+.footer li {
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+/* media queries */
+@media only screen and (max-width: 1024px){
+    .navbar-collapse{
+        background:#f2f2f2;
+    
+    }
+}
+
+/* media queries */
+
+@media only screen and (min-width: 1080px){
+    .hero-body{
+    transform: translate(5rem , -27rem);
+    width: 25rem;
+   }
+   .hero-body-two{
+    transform: translate(5rem , -27rem);
+    width: 25rem;
+    height: 20rem;
+   }
+   .download-text{
+    transform: translate(5rem , -20rem);
+   }
+   .hero-bg-white{
+    background-color: #fff;
+   }
+}
